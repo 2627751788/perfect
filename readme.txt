@@ -59,6 +59,11 @@ git rm 文件名	//将版本库中的文件删除
 	删除分支：git branch -d <name>
 
 
+杂项：
+1.git的your old repository's clone url如何写
+https://blog.csdn.net/weixin_41562754/article/details/79859237?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164545219416780265448276%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164545219416780265448276&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-79859237.first_rank_v2_pc_rank_v29&utm_term=Your+old+repository%E2%80%99s+clone+URL&spm=1018.2226.3001.4187
+
+
 
 
 

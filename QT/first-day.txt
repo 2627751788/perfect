@@ -1,0 +1,48 @@
+第一天：
+    1.QT的介绍，优点，成功案例
+    2.创建第一个QT程序
+        **步骤：
+            (1)创建（New Project）,默认，点击choose
+            (2)名称和路径：注意名称中间不能有空格，路径不能有中文路径
+            (3)kit selection套件选择
+            (4)基类的选择   QWeiget 是QMainWindow和QDialog的父类
+                创建界面（有一个ui界面可以自己画按键什么的）
+            (5)项目管理（可先忽略）
+            完成结束
+            运行文件夹下面的.exe文件出错，解决办法如下：
+            https://blog.csdn.net/qq_39382753/article/details/115477703?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164804578916780271535950%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164804578916780271535950&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-1-115477703.142^v3^pc_search_insert_es_download,143^v4^control&utm_term=%E7%94%B1%E4%BA%8E%E6%89%BE%E4%B8%8D%E5%88%B0qt5widgetsd.dll&spm=1018.2226.3001.4187
+        **介绍创建工程文件
+            .pro文件：
+                QT       += core gui    //QT包含的模块（core gui两个模块）
+
+                greaterThan(QT_MAJOR_VERSION, 4): QT += widgets //在QT4版本以上加了widgets模块
+
+                TARGET = first      //生成的.exe程序名称
+                TEMPLATE = app      //模板，应用程序开发
+
+
+                SOURCES += main.cpp\    //源文件，创建新的。cpp文件会自动加在此处
+                    mywidget.cpp
+
+                HEADERS  += mywidget.h  //头文件
+    3.对象数的基本概念
+
+    4.QT中的坐标系统
+    5.信号和槽的基本使用以及拓展
+第二天：
+    1.带菜单栏的窗口
+    2.资源文件
+    3.对话框
+    4.界面布局
+    5.常用控件
+    6.自定义控件
+第三天：
+    1.事件处理
+    2.定时器
+    3.Event时间分发器
+    4.时间过滤器
+    5.QPrint绘图
+    6.绘图设备的使用
+    7.Qfile文件读写操作
+实践操作：QT游戏制作-翻金币
+

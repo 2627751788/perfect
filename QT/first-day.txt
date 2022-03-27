@@ -25,6 +25,11 @@
                     mywidget.cpp
 
                 HEADERS  += mywidget.h  //头文件
+        **基本控件接口（QPushButton的使用）
+            (1)按钮 QPushButton *btn = new QPushButton;
+            (2)设置按钮依赖于MyWeight窗口中 bnt->setParent(this);//设置按钮的父类，在这里父类就是MyWeight窗口
+            (3)设置和固定MyWeight窗口大小，修改窗口的名称
+            (4)设置按钮的位置以及按钮上的文本
     3.对象数的基本概念
 
     4.QT中的坐标系统

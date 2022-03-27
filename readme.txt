@@ -40,7 +40,7 @@ git rm 文件名	//将版本库中的文件删除
 6.远程库的添加与克隆远程库到本地
 	在网页创建一个github账号
 	找到创建一个存储库  create a new repository（点击右上角的头像，选择you repositories）
-	git remote add origin xxx	//xxx表示仓库地址，将远端库与本地库关联起来
+	git remote add origin xxx	//xxx表示仓库地址，将远端库与本地库关联起来（SSH地址）
 	git push -u origin master	//第一次使用时+ -u
 	,可以将本地master分支与远端master分支关联起来。将本地库的所有内容推送到远端
 	git push origin master	//后面都只需要使用此命令push本地库到远端库即可
